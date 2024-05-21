@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headSection {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+  float:inline-start;
+  
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 20px 0px;
+  padding: 15px;
+}
+
+.bannerSection{
+    height: 80vh;
+    display: flex;
+    align-items: center;    
+    justify-content:space-around;
+}
+.leftContainer{
+    display:flex;
+    flex-direction:column;
+}
+
+#Menu{
+    color: white;
+    border: none;
+    border-radius: 20px 0px;
+    padding: 15px;
+}
+/*- -*/
+.specialSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.dishSection{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/*- -*/
+.welcomeSection{
+  height: 100%;
+  display: flex;
+  align-items: center;    
+  justify-content:space-around;
+}
+.rightSection{
+  display:flex;
+  flex-direction:column;
+}
+
+.chefBanner{
+  border: solid red;
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+}
+
+.cBannerLeft{
+  border: solid yellow;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
