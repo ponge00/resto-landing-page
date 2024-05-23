@@ -79,14 +79,18 @@ button {
 }
 
 .chefBanner{
-  border: solid red;
   display: flex;
   align-items:center;
   flex-direction: row;
 }
 
 .cBannerLeft{
-  border: solid yellow;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.csFeedback{
   display: flex;
   align-items: center;
   flex-direction: column;
