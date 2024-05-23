@@ -95,3 +95,15 @@ button {
   align-items: center;
   flex-direction: column;
 }
+
+.footBanner{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crFooter{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
